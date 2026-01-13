@@ -1,6 +1,6 @@
 /**
  * Fahrkartenautomat Übungsprojekt
- * @author Jan Albrecht (SE-C 51)
+ * @author Benni Wilhelm (SE-C 51)
  * @version A2.5 Fahrkartenautomat kommentieren
  */
 
