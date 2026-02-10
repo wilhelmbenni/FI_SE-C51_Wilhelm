@@ -1,2 +1,36 @@
-//5.2.1 Addieren 
-@claude 
+import java.util.Scanner;
+
+public class A521_Addieren {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int summe;
+
+        // Variante vorwärts
+        System.out.println("Variante vorwärts");
+        System.out.print("Geben Sie bitte eine Zahl ein: ");
+        int n = sc.nextInt();
+        System.out.println("\nDie Zahlen werden addiert:");
+
+        summe = 0;
+        for (int i = 1; i <= n; i++) {
+            System.out.println(i);
+            summe += i;
+        }
+        System.out.println("\nDie Summe beträgt: " + summe);
+
+        // Variante rückwärts
+        System.out.println("\nVariante rückwärts");
+        System.out.print("Geben Sie bitte eine Zahl ein: ");
+        n = sc.nextInt();
+        System.out.println("\nDie Zahlen werden addiert:");
+
+        summe = 0;
+        for (int i = n; i >= 1; i--) {
+            System.out.println(i);
+            summe += i;
+        }
+        System.out.println("\nDie Summe beträgt: " + summe);
+
+        sc.close();
+    }
+}
